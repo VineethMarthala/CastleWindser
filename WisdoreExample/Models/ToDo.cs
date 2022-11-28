@@ -5,17 +5,7 @@ using System.Web;
 
 namespace WisdoreExample.Models
 {
-    public class ToDo
-    {
-        public string Title { get; set; }
-        public DateTime Date { get; set; }
-        public string Comment { get; set; }
-    }
-
-    public interface ToDoListService
-    {
-        IEnumerable<ToDo> GetToDoList();
-    }
+    
 
     public class ToDoListServiceImpl : ToDoListService
     {
