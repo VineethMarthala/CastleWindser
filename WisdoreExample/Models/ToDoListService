@@ -1,0 +1,4 @@
+public interface ToDoListService
+    {
+        IEnumerable<ToDo> GetToDoList();
+    }
